@@ -1,7 +1,9 @@
 import random
 import time
+import sys
 
-targetArray = list("Hello World") # listify the string "hello world"
+# it would be cool to make it read command line args - sys.argv just printed the directory, which was perplexing
+targetArray = list("Hello, I'm Iain and I'm very clever") # listify the string "hello world"
 stringArray = [""] * len(targetArray) # construct an array of empty strings the length of the target string
 i = 0 # empty variable
 while i < len(targetArray): # while i is less than the length of the target string
