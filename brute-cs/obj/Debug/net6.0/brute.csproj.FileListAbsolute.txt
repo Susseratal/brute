@@ -1,0 +1,5 @@
+F:\brute\obj\Debug\net6.0\brute.csproj.AssemblyReference.cache
+F:\brute\obj\Debug\net6.0\brute.GeneratedMSBuildEditorConfig.editorconfig
+F:\brute\obj\Debug\net6.0\brute.AssemblyInfoInputs.cache
+F:\brute\obj\Debug\net6.0\brute.AssemblyInfo.cs
+F:\brute\obj\Debug\net6.0\brute.csproj.CoreCompileInputs.cache
