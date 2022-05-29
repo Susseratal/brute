@@ -25,7 +25,7 @@ def main():
         f = open(str(sys.argv[2]), "r")
         fileText = f.read()
         fileText = fileText.strip()
-        brute(ft)
+        brute(fileText)
     else:
         print("Error: unrecognised flag: " + str(sys.argv[1]))
 
