@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ErZhyZ+0RTuAFmhIc4RaeVeio+ZYtE/FyWvsZvuIe8cimlccch2XOZiml5ZWgs7EEQfpdVnZZPrRYpVu76mOWQ==",
+  "dgSpecHash": "qMOBtpfzTDXQkZxEAWDae+G9O/vuLhjHaJkKETQn49rZA9JFTXSgZoDbEotsltZdF/ynHTAnHR2kZ56HSDr9aA==",
   "success": true,
-  "projectFilePath": "F:\\brute\\brute.csproj",
+  "projectFilePath": "F:\\brute\\brute-cs\\brute.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

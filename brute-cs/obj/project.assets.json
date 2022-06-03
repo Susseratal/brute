@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\brute\\brute.csproj",
+      "projectUniqueName": "F:\\brute\\brute-cs\\brute.csproj",
       "projectName": "brute",
-      "projectPath": "F:\\brute\\brute.csproj",
+      "projectPath": "F:\\brute\\brute-cs\\brute.csproj",
       "packagesPath": "C:\\Users\\Iain\\.nuget\\packages\\",
-      "outputPath": "F:\\brute\\obj\\",
+      "outputPath": "F:\\brute\\brute-cs\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Iain\\AppData\\Roaming\\NuGet\\NuGet.Config",
