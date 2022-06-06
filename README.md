@@ -2,8 +2,8 @@
 This is a silly bit of fun to practice programming in different languages, and it's more interesting than writing normal hello world programs  
 Usage:  
 
-        python brute.? -m message 
-        python brute.? -f file.txt
+        ./brute.? -m message 
+        ./brute.? -f file.txt
 
 Either of these should work
 
