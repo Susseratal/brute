@@ -12,7 +12,7 @@ def brute(message):
             i += 1 
         print("".join(stringArray), end="", flush=True) 
         print(200*chr(8), end="")
-        time.sleep(0.05) 
+        time.sleep(0.005) 
     print("\n")
 
 
