@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <iostream>
 #include <cstring>
+#include <iostream>
 #include <fstream>
 #include <chrono>
 #include <thread>
@@ -48,7 +48,14 @@ int main(int argc, char *argv[])
         }
         else if (flag == "-f")
         {
-            std::cout << "file\n";
+            std::string fileName = (argv[2]);
+            std::string fileString;
+
+            std::ifstream f(fileName);
+            getline(f, fileString);
+            f.close();
+
+            brute(fileString);
         }
         else
         {
