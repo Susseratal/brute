@@ -31,14 +31,9 @@ namespace Brute
 
         static void Main(string[] args)
         {
-            if (args.Length == 0)
+            if (args.Length != 2)
             {
-                Console.WriteLine("2 Arguments are required: Please provide either the '-m' or '-f' flag for a message or file");
-            }
-
-            else if (args.Length == 1)
-            {
-                Console.WriteLine("2 Arguments are required: Please provide a message or filename");
+                Console.WriteLine("2 Arguments are required: provide '-m' or '-f' along with a message or file respectively");
             }
 
             else

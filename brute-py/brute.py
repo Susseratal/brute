@@ -17,17 +17,20 @@ def brute(message):
 
 
 def main():
-    flag = str(sys.argv[1])
-    if flag == "-m":
-        text = str(sys.argv[2])
-        brute(text)
-    elif flag == "-f":
-        f = open(str(sys.argv[2]), "r")
-        fileText = f.read()
-        fileText = fileText.strip()
-        fileText = fileText.replace("\n", "")
-        brute(fileText)
+    if (len(sys.argv) != 2):
+        print("2 arguments are required: provide -m or -f along with a message or file respectively")
     else:
-        print("Error: unrecognised flag: " + str(sys.argv[1]))
+        flag = str(sys.argv[1])
+        if flag == "-m":
+            text = str(sys.argv[2])
+            brute(text)
+        elif flag == "-f":
+            f = open(str(sys.argv[2]), "r")
+            fileText = f.read()
+            fileText = fileText.strip()
+            fileText = fileText.replace("\n", "")
+            brute(fileText)
+        else:
+            print("Error: unrecognised flag: " + str(sys.argv[1]))
 
 main()
