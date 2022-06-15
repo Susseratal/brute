@@ -17,7 +17,7 @@ def brute(message):
 
 
 def main():
-    if (len(sys.argv) != 2):
+    if (len(sys.argv) != 3):
         print("2 arguments are required: provide -m or -f along with a message or file respectively")
     else:
         flag = str(sys.argv[1])
