@@ -4,5 +4,6 @@
 */*.txt
 */*.o
 */*.exe
+*/brute
 */obj/**
 */bin/**
