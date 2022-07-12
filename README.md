@@ -7,4 +7,9 @@ Usage:
 
 Either of these should work
 
-This was inspired by [someone who wrote this in ruby](https://github.com/kickinespresso/brute_hello)
+This was inspired by [someone who wrote this in ruby](https://github.com/kickinespresso/brute_hello)  
+Languages I have done:  
+        - [x] Python
+        - [x] C#
+        - [x] C++
+        - [ ] Java - what a dumb language
