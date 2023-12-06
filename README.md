@@ -16,4 +16,4 @@ Languages I have done myself:
         - [x] Python
         - [x] C#
         - [x] C++
-        - [ ] Java - what a dumb language
+        - [x] Java
