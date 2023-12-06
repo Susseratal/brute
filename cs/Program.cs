@@ -2,23 +2,17 @@
 using Thread = System.Threading.Thread;
 using File = System.IO.File;
 
-namespace Brute
-{
-    public class Program
-    {
-
-        static void brute(string message)
-        {
+namespace Brute {
+    public class Program {
+        static void brute(string message) {
             var rand = new Random();
             char[] targetArray = message.ToCharArray();
             string[] stringArray = new string[targetArray.Length];
             int i = 0;
-            while (i < targetArray.Length)
-            {
+            while (i < targetArray.Length) {
                 var currentChar = Convert.ToChar(rand.Next(32, 126));
                 Console.Write(currentChar);
-                if (currentChar == targetArray[i])
-                {
+                if (currentChar == targetArray[i]) {
                     Console.Write(" ");
                     ++i;
                 }
@@ -29,24 +23,19 @@ namespace Brute
             Console.Write("\n");
         }
 
-        static void Main(string[] args)
-        {
-            if (args.Length != 2)
-            {
+        static void Main(string[] args) {
+            if (args.Length != 2) {
                 Console.WriteLine("2 Arguments are required: provide '-m' or '-f' along with a message or file respectively");
             }
 
-            else
-            {
+            else {
                 string flag = args[0];
-                if (flag == "-m")
-                {
+                if (flag == "-m") {
                     string text = args[1];
                     brute(text);
                 }
 
-                else if (flag == "-f")
-                {
+                else if (flag == "-f") {
                     char[] toTrim = {'\n', '\r'};
                     string f = args[1];
                     string fileText = File.ReadAllText(@f);
@@ -54,8 +43,7 @@ namespace Brute
                     brute(fileText);
                 }
 
-                else
-                {
+                else {
                     Console.WriteLine("The flag was not recognised, much like the confederate flag");
                 }
             }
